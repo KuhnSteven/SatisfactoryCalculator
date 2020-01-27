@@ -1,0 +1,81 @@
+/* Color Palette:
+    1. Gun Metal: #2B2D42
+    2. Pewter Blue: #91AEC1
+    3. Lemon Meringue: #F4E8C1
+    4. Spanish Green: #0A8754
+    5. Iguana Green: #70AE6E
+    */
+@import url('https://fonts.googleapis.com/css?family=Paytone+One');
+html, main, body {
+    padding: 25px;
+    background-color: #91AEC1 !important;
+    color: #2B2D42 !important;
+    font-family: 'Paytone One', sans-serif;
+    letter-spacing: 2px !important;
+}
+
+#hiddenDesc {
+    display: none;
+}
+
+form {
+    border: solid #0A8754 1px;
+    padding: 25px;
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    background-color: #70AE6E;
+    margin-bottom: 5px;
+    color: #2B2D42;
+    margin-right: auto;
+    margin-left: auto;
+}
+label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+select{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+img{
+    width: 100px;
+}
+input[type="submit"]{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #2B2D42;
+    background-color: #0A8754 !important;
+    letter-spacing: 1px;
+}
+input[type="reset"] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #2B2D42;
+    background-color: #F4E8C1 !important;
+    letter-spacing: 1px;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Paytone One', sans-serif !important;
+    letter-spacing: 1px;
+}
+#hiddenDesc{
+    background-color: #F4E8C1;
+    margin-top: 25px;
+    border: 1px solid #2B2D42;
+    padding: 5px;
+    font-family: 'Paytone One', sans-serif;
+}
+#carouselExampleIndicators{
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+h1{
+    color: #F4E8C1;
+}
